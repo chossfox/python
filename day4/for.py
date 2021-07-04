@@ -1,18 +1,18 @@
 """
 반복문(FOR)
-for: start(시작), end(끝), interval(증감 값)
-for index in range(start, end, interval):
+for: start(시작), end(끝), step(증감 값)
+for iterator in range(start, end, step):
 """
 
 # 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 # start: 1
-# end: 10
-# interval: 1
+# end: 11
+# step: 1
 
-# index: 1
-# print(index)
-# index = index + interval
-# if index < end
+# iterator: 10
+# print(iterator)
+# iterator = iterator + step
+# if iterator < end
 print()
 for index in range(1, 11, 1):
     print(index, end=" ")
@@ -21,6 +21,11 @@ for index in range(1, 11, 1):
 print()
 for index in range(0, 10, 1):
     print(index + 1, end=" ")
+    # 1 2 3 4 5 6 7 8 9 10
+
+print()
+for i in range(0, 10):
+    print(i + 1, end=" ")
     # 1 2 3 4 5 6 7 8 9 10
 
 print()
@@ -45,6 +50,12 @@ for i in range(2, 10):
 print("\n\n2-----------------------------------------")
 list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 print()
+
+for i in range(len(list1)):
+    lst = list1[i]
+
+    print(lst, end=" ")
+
 for lst in list1:
     print(lst, end=" ")
     # 1 2 3 4 5 6 7 8 9 10
