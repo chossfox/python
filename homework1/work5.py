@@ -11,7 +11,6 @@ from work2 import table
 print()
 for key, values in table.items():
     for k, v in values.items():
-        print("{} X {} = {}".format(key, k, v))
-        pass
+        print("{} X {}  = {}".format(key, k , v))
 
     print("-----------")

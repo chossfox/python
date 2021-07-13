@@ -40,8 +40,8 @@ contents = None
 with open("file.txt", "r") as f:
     contents = f.readlines()
     for content in contents:
-        print(content)
-
+        # print(content)
+        pass
 
 # ------------------------------------------------------------
 

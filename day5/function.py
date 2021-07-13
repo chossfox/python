@@ -6,10 +6,13 @@ def 함수_이름(입력 값1, 입력값2...):
     return 출력 값
 
 함수_이름(입력 값1, 입력값2...)
+print()
 """
 
 
 # 함수 기본 틀
+# 입력값 = 파라미터 = 매개변수
+# 출력값 = 리턴값
 def func_basic(parameter):
     func_contents = None
     return output_value
@@ -20,13 +23,16 @@ def func_empty_parameter():
 
 def func_empty_return(parameter):
     func_contents = None
+    # 안써도되고
+    # return
+    # return None
 
 def func_empty_param_return():
     func_contents = None
 
 
 # 일반 구현
-# print()
+print()
 # for i in range(2, 10):
 #     for j in range(1, 10):
 #         print("{} X {} = {}".format(i, j, i * j))
@@ -48,7 +54,12 @@ def gugudan(dan):
 
 
 # 함수 실행 1
-value = gugudan(13)
+gugudan(9)
+
+list1 = [1, 2, 3, 4]
+result = list1.remove(1)
+print(list1)
+print(result)
 
 # ------------------------------------------------------------
 
@@ -86,24 +97,11 @@ def gugudan(dan):
 # 함수 실행 3
 gugu_dict = {}
 for i in range(13):
+    # 0 <= i < 13
+    # 1 <= i <= 13
     gugu_dict[i + 1] = gugudan(i + 1)
 
 print()
 print(gugu_dict[3])
 
 # ------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

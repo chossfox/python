@@ -5,6 +5,5 @@ from work2 import table
 print()
 for key, values in table.items():
     for k, v in values.items():
-        if v == 96:
+        if v == 6:
             print("{}단".format(key))
-            # print(str(key) + "단")
